@@ -39,6 +39,10 @@ html, body{
     grid-column: 2 /4;
     grid-row: 2 / 4;
     background-color: #00C075;
+    background-image: url("css_is_awesome.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 50%;
 }
 
 .sidebar {
@@ -103,32 +107,30 @@ html, body{
 
     .main {
         grid-column: 1 /4;
-        grid-row: 2 / 4;
+        grid-row: 2 / 6;
     }
 
     .sidebar {
-        grid-column: 1 / 2;
-        grid-row: 3 / 5;
         display: none;
     }
 
     .extra{
         grid-column: 1 / 4;
-        grid-row: 4 / 5;
+        grid-row: 6 / 7;
     }
 
     .images{
         grid-column: 1 / 4;
-        grid-row: 5 / 6;
+        grid-row: 7 / 8;
     }
 
     .posts{
         grid-column: 1 / 4;
-        grid-row: 6 / 7;
+        grid-row: 8 / 9;
     }
 
     .footer{
         grid-column: 1 / 4;
-        grid-row: 8 / 9;
+        grid-row: 9 / 10;
     }
 }
